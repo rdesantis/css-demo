@@ -1,5 +1,7 @@
 h1 {
     font-size: 3rem;
+    overflow: hidden;
+    position: relative;
 }
 
 h2 {
@@ -44,6 +46,7 @@ nav ul {
 nav li {
     display: inline-block;
     font-size: 1.5rem;
+    padding: 0.5rem;
 }
 
 nav a {
