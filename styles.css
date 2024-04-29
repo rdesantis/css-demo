@@ -19,10 +19,13 @@ h3 {
     font-size: 1rem;
 }
 
-header img {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+header img {
     height: 10rem;
 }
 
@@ -46,14 +49,6 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
-}
-
-main > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: auto;
 }
 
 section {
@@ -83,11 +78,19 @@ article {
     color:beige;
 }
 
-article > img {
-    display: block;
+article img {
+    width: 100%;
+    height: auto;
+}
+
+#construction {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+}
+
+#construction img {
+    width: 50%;
     height: auto;
 }
 
