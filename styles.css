@@ -17,11 +17,23 @@ h2 {
     text-align: center;
 }
 
-header > img {
+h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 10rem;
+}
+
+nav {
+    background-color: chocolate;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 nav ul {
@@ -31,21 +43,41 @@ nav ul {
 
 nav li {
     display: inline-block;
+    font-size: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
 }
 
 section {
     display: flex;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 article {
     flex: 1;
+    background-color:rgb(146, 175, 95);
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 article > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 8rem;
+    width: 100%;
+    height: auto;
 }
 
 footer {
