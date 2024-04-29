@@ -83,9 +83,17 @@ article {
 }
 
 #promotion article {
-    background-image: url("assets/linguini.jpg");
     background-size: cover;
+    animation: slideshow 15s infinite;
 }
+
+@keyframes slideshow {
+    0% { background-image: url("assets/penne.jpg"); }
+    33% { background-image: url("assets/linguini.jpg"); }
+    66% { background-image: url("assets/shrimp and bowties.jpg"); }
+    100% { background-image: url("assets/penne.jpg"); }
+}
+
 
 #about article {
     background-image: url("assets/full table.jpg");
