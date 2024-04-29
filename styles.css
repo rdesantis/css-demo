@@ -1,6 +1,6 @@
 body {
     background-color: #EDEFEE;
-    font-family: 'Markazi Text', serif;
+    font-family: serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 5%;
@@ -9,17 +9,14 @@ body {
 
 h1 {
     font-size: 3rem;
-    text-align: center;
 }
 
 h2 {
     font-size: 2rem;
-    text-align: center;
 }
 
 h3 {
     font-size: 1rem;
-    text-align: center;
 }
 
 header img {
@@ -70,6 +67,20 @@ article {
     background-color:rgb(146, 175, 95);
     border-radius: 10px;
     padding: 1rem;
+}
+
+#promotion article {
+    background-image: url("assets/linguini.jpg");
+    background-size: cover;
+}
+
+#about article {
+    background-image: url("assets/full table.jpg");
+    background-size: cover;
+}
+
+#promotion, #about {
+    color:beige;
 }
 
 article > img {
