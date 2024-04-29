@@ -64,6 +64,21 @@ article {
     padding: 1rem;
 }
 
+#fly_in {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    animation: fly_in 2s ease-in;
+}
+
+@keyframes fly_in {
+    0% { transform: translateX(100%) skewX(-30deg); }
+    60% { transform: translateX(0%) skewX(0deg); }
+    70% { transform: translateX(0%) skewX(30deg); }
+    70% { transform: translateX(0%) skewX(30deg) scaleY(1.25); }
+    100% { transform: translateX(0%) skewX(0deg) scaleY(1); }
+}
+
 #promotion article {
     background-image: url("assets/linguini.jpg");
     background-size: cover;
