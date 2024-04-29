@@ -87,6 +87,10 @@ article {
     animation: slideshow 15s infinite;
 }
 
+#promotion h1:hover {
+    color: rgb(230, 31, 31);
+}
+
 @keyframes slideshow {
     0% { background-image: url("assets/penne.jpg"); }
     33% { background-image: url("assets/linguini.jpg"); }
