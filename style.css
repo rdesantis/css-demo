@@ -96,15 +96,15 @@ article {
 }
 
 @keyframes slideshow {
-    0% { background-image: url("assets/penne.jpg"); }
-    33% { background-image: url("assets/linguini.jpg"); }
-    66% { background-image: url("assets/shrimp and bowties.jpg"); }
-    100% { background-image: url("assets/penne.jpg"); }
+    0% { background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/penne.jpg"); }
+    33% { background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/linguini.jpg"); }
+    66% { background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/shrimp and bowties.jpg"); }
+    100% { background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/penne.jpg"); }
 }
 
 
 #about article {
-    background-image: url("assets/full table.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/full table.jpg");
     background-size: cover;
 }
 
