@@ -1,9 +1,9 @@
-# Little Lemon Homepage: CSS layout and effects demo app
+# Little Lemon Homepage: CSS layout and effects demo
 
-This app implements a homepage for the fictional Little Lemon restaurant.  It demonstrates the usage of modern CSS
+This project implements a homepage for the fictional Little Lemon restaurant.  It demonstrates the usage of modern CSS
 to layout a page and to provide effects including animation.
 
-This is a pure HTML and CSS page with no JavaScript. To see the page, simply view index.html in your browser.
+This is a pure HTML and CSS page with no JavaScript. To see the page, simply view `index.html` in your browser.
 
 ## Layout
 The layout uses `display: flex` so that sections resize smoothly when you change the size of your browser window.
